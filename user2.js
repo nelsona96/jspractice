@@ -48,9 +48,7 @@ function onSearchChange(event) {
 }
 
 function goBack() {
-    const backButton = document.querySelector('.back-button');
-    window.location.href = `${window.location.origin}/jspractice/`
-    // window.location.href = `${window.location.origin}/index.html`
+  window.history.back();
 }
 
 function init() {
