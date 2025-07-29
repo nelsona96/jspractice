@@ -1,3 +1,5 @@
+// This file is my attempt to re-create the js functionality from memory and/or learning to think through the code on my own.
+
 // API 1: "https://jsonplaceholder.typicode.com/users"
 
 const userListHTML = document.querySelector(".user-list");
@@ -26,7 +28,12 @@ function userHTML(user) {
 
 function showUserPosts(id) {
   localStorage.setItem("id", id);
-  window.location.href = `${window.location.origin}/user.html`;
+
+  // Have to do it this way for it to work while hosted on Github
+  window.location.href += `user.html`;
+
+  // Normal way:
+  // window.location.href = `${window.location.origin}/user.html`
 }
 
 setTimeout(() => {

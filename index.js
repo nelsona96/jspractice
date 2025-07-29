@@ -1,3 +1,5 @@
+// This file is not being used. This was code I wrote while following the bootcamp video.
+
 // API 1: "https://jsonplaceholder.typicode.com/users"
 // API 2: "https://jsonplaceholder.typicode.com/posts?userId=:id"
 
